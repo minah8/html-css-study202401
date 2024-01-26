@@ -1,0 +1,43 @@
+@import url(../../common.css);
+
+body {
+    background: gray;
+    padding-bottom: 20px;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* header style */
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    background: orange;
+    color: #fff;
+    font-weight: 900;
+    font-size: 80px;
+}
+
+header h1 span {
+    font-size: 15px;
+    display: block;
+    padding: 15px;
+}
+
+header h2 {
+    background: rgb(167, 167, 167);
+    color: #123456;
+    font-size: 11px;
+    padding: 2px;
+}
+
+/* container style */
+
+.container {
+    background: white;
+}
