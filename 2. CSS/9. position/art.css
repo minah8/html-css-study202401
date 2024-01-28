@@ -38,6 +38,119 @@ header h2 {
 
 /* container style */
 
+/* side content */
+
 .container {
     background: white;
+}
+
+.container .side-menu {
+    width: 25%;
+    float: left;
+}
+
+.container .side-menu h3 {
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.container .side-menu ul {
+    background: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 10px;
+    line-height: 2;
+}
+
+/* main content */
+
+.container .main-content {
+    background: rgb(190, 190, 190);
+    color: #123456;
+    float: left;
+    width: 50%;
+    padding: 20px 10px;
+}
+
+.container .main-content .art-piece .title{
+    background: #123456;
+    color: #fff;
+    padding: 5px;
+}
+
+.container .main-content .art-piece .artist {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container .main-content .art-piece .detail {
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+/* banner */
+
+.container .banner {
+    width: 25%;
+    float: left;
+    padding: 10px 5px;
+}
+
+.container .banner h3 {
+    padding-bottom: 20px;
+}
+
+.container .banner .all {
+    color: gray;
+    font-weight: 700;
+    text-decoration: underline;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.container .banner .love {
+    color: orange;
+    font-weight: 700;
+    text-decoration: underline;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.container .banner h3 strong {
+    font-weight: 700;
+    display: block;
+}
+
+.container .banner ul a {
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: underline;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.container .banner ul span {
+    font-size: 12px;
+    display: block;
+    padding-bottom: 15px;
+}
+
+
+/* footer style */
+
+footer {
+    color: #fff;
+    background: #123456;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+footer address a {
+    text-decoration: underline;
 }
